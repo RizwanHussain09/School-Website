@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Kent Schooling System | Premium Education",
   description:
     "Kent Schooling System (KSS) - A premier educational institution offering quality education with modern facilities and experienced faculty.",
-  generator: "v0.app",
+ 
   metadataBase: new URL("https://kent-schooling-system.vercel.app"),
   icons: {
     icon: [
