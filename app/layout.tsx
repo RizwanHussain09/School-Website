@@ -9,29 +9,14 @@ const geist = Geist({
   variable: '--font-geist'
 })
 
+
 export const metadata: Metadata = {
   title: "Kent Schooling System | Premium Education",
   description:
     "Kent Schooling System (KSS) - A premier educational institution offering quality education with modern facilities and experienced faculty.",
  
   metadataBase: new URL("https://kent-schooling-system.vercel.app"),
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  
 }
 
 export default function RootLayout({
